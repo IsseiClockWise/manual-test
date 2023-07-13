@@ -9,4 +9,7 @@ export default defineNuxtConfig({
       link: [{ rel: 'icon', href: '/icon.png' }],
     },
   },
+  router: {
+    base: '/manual-test/'
+  }
 })
